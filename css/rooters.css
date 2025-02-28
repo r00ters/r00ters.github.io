@@ -56,8 +56,12 @@ footer {
     margin-bottom: 0px;
   }
 
-.services {
+.services, .section {
     background: #fff;
+}
+
+.bg-gray {
+    background: #f9f9f9;
 }
 
 a:focus, a:hover {
