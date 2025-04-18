@@ -1,3 +1,15 @@
+/* 
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600,700,300i,600i,700i|Raleway:600,800);
+@import url(https://fonts.googleapis.com/css?family=Inconsolata:300,600,700,300i,600i,700i);
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Inconsolata:wght@200..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+
+
 body {
     background-attachment: fixed;
     background-color: #1d1d1d;
@@ -6,6 +18,26 @@ body {
     background-repeat: repeat-y;
     background-size: 75% auto;
     /* color: #9a9a9a */
+    font-family: "Raleway", sans-serif;
+}
+
+h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-family: "Catamaran", sans-serif
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+  color: #4b4b4b;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.color-gray {
+  color: #4b4b4b;
+}
+
+.color-violet {
+    color: #701634;
 }
 
 footer {
@@ -13,12 +45,24 @@ footer {
 }
 
 .single-page-header {
-  background: #1d1d1d;
+  background: rgba(29, 29, 29, 0.1);
 }
 
 .navigation {
   /* background: #1d1d1d; */
-  background-color: rgba(29, 29, 29, 0.5);
+  background-color: rgba(29, 29, 29, 0.1);
+}
+
+.navigation .navbar-nav > li.active a {
+  color: #fff;
+}
+
+.navigation .navbar-nav > li > a {
+  color: #fff;
+  font-size: 16px;
+  line-height: 26px;
+  padding: 20px 15px !important;
+  transition: .2s ease-in-out 0s;
 }
 
 .hero-area {
@@ -65,7 +109,7 @@ footer {
 }
 
 a:focus, a:hover {
-    color: #701634;
+    color: #707d8f;
   }
 
   #preloader {
@@ -73,7 +117,7 @@ a:focus, a:hover {
   }
 
   .header-bradcrumb a:hover {
-    color: #701634;
+    color: #707d8f;
   }
 
   .commonTab .nav-tabs .nav-item .nav-link.active {
@@ -87,15 +131,19 @@ a:focus, a:hover {
   }
 
   .single-page-header .breadcrumb li a {
-    color: #701634;
+    color: #9a4864;
   }
 
   .navigation .navbar-nav > li > a:hover, .navigation .navbar-nav > li > a:active, .navigation .navbar-nav > li > a:focus {
-    color: #701634;
+    color: #707d8f;
+  }
+
+  .navigation .dropdown .dropdown-item {
+    font-size: 15px;
   }
 
   .navigation .dropdown .dropdown-item:hover {
-    color: #701634;
+    color: #707d8f;
   }
 
   .video-player .play-icon i {
@@ -104,6 +152,10 @@ a:focus, a:hover {
 
   .about h4 {
     color: #701634;
+  }
+
+  .about p {
+    text-align: justify;
   }
 
   .contact-form input:hover,
@@ -143,6 +195,11 @@ a:focus, a:hover {
   .portfolio-block .caption .search-icon {
     background: #701634;
   }
+
+  .services .service-block p {
+    color: #4b4b4b;
+    text-align: justify;
+}
 
   .services .service-block i {
     color: #701634;
@@ -192,6 +249,10 @@ a:focus, a:hover {
     border: 1px solid #701634;
   }
 
+  .top-footer {
+    background: rgba(29, 29, 29, 0.1)
+  }
+
   .top-footer li a:hover {
     color: #701634;
   }
@@ -203,9 +264,17 @@ a:focus, a:hover {
   .btn-main, .btn-main-sm {
     background-image: linear-gradient(100deg, #fe2a77, #701634);
   }
+
+  .title p {
+    color: #6d6d6d;
+}
   
   .gradient, .title .border, .service-2 .service-item i {
     background-image: linear-gradient(100deg, #fe2a77, #701634);
+  }
+
+  .about .content {
+    padding: 0;
   }
 
   .about-2 h2:before {
