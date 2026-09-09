@@ -1,0 +1,4 @@
+Contact: mailto:security@rooters.it
+Expires: 2030-12-30T23:00:00.000Z
+Encryption: https://www.rooters.it/B20EA48B.asc
+Preferred-Languages: it, en
